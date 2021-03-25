@@ -1,0 +1,59 @@
+.Input {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.Input label {
+    margin-bottom: 3px;
+    padding: 0;
+    display: block;
+    font-weight: bold;
+}
+
+.Input input {
+    display: block;
+    box-sizing: border-box;
+    border: 1px solid #bebebe;
+    padding: 7px;
+    margin: 0 0 5px;
+    width: 100%;
+    outline: none;
+    transition: all 300ms ease-in-out;
+}
+
+.Input span {
+    color: #f01f30;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.Input.invalid label {
+    color: #f01f30;
+}
+
+.Input .zoom-icon {
+    display: inline-block;
+    position: absolute;
+    top: 9px;
+    left: 6px;
+    width: 8px;
+    height: 8px;
+    border-radius: 8px;
+    border: 2px solid #000;
+}
+  
+.Input .zoom-inner {
+    width: 6px;
+    height: 3px;
+    display: block;
+    background: #000;
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    transform: rotate(45deg);
+}
+
+.Input .zoom-icon + input {
+    padding-left: 28px;
+}
+

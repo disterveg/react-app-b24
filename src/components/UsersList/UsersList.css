@@ -1,0 +1,31 @@
+.card.item {
+    align-items: center;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: space-between;
+}
+.card.item:hover {
+    border-color: #fff;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,.15);
+    z-index: 1;
+}
+.card-body__img {
+    width: 64px;
+    background: rgba(82,92,105,.23);
+}
+.card-body__photo {
+    height: 64px;
+    overflow: hidden;
+    border-radius: 100%;
+}
+.card-title {
+    width: 26%;
+    margin-bottom: 0;
+}
+.card-text {
+    width: 28%;
+    margin-bottom: 0;
+}
+.input-group {
+    width: 18%;
+}
